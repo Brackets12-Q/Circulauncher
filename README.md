@@ -1,5 +1,8 @@
 # Circulauncher
 
+RUN THE PROGRAM WITH `ags run app.tsx`.
+
+
 I thought 
 > Why must the launchers be rectangular?
 
@@ -23,6 +26,16 @@ The bar supports these few operations:
 - Media Player
 - Basic Bluetooth Controls
 - Basic Volume Controls
+
+Note: this program is specifically crafted for hyprland on Arch Linux, performance on other setups are not completely guaranteed. <br>
+Also, you probably have to have to install:
+- aylurs-gtk-shell
+- libastal-hyprland
+- libastal-apps
+- libastal-cava
+- libastal-bluetooth
+- libastal-mpris
+- libastal-wireplumber
 
 Currently, I am working on scaling it. Now, it only works on 4K display screens. Not very well suited for 1K screens. <br>
 Feel free to download and edit it yourself. If you have something that would seem nice to have everyone use, you can request / make a pull request 😄<br>

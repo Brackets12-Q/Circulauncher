@@ -1,0 +1,257 @@
+*:not(scale) {
+  all: unset;
+}
+
+switch {
+  border-radius: 30px;
+}
+
+switch slider {
+  border-radius: 50px;
+  border: 2px solid rgb(25, 255, 255);
+  background-color: rgb(77, 255, 199);
+}
+
+.bar {
+  border-radius: 1000px;
+  border: 3px solid cyan;
+  background-color: rgba(11, 11, 22, 0.9);
+}
+
+.time {
+  font-weight: 800;
+  color: aqua;
+  text-shadow: 0 0 0.5em cyan;
+  font-size: 16px;
+}
+
+.calendarBg {
+  border: 2px solid rgb(135, 255, 255);
+  border-radius: 20px;
+}
+
+calendar {
+  color: cyan;
+  text-shadow: 0 0 5px cyan;
+}
+
+calendar.view header {
+  border: 2px solid cyan;
+  border-radius: 10px;
+  color: cyan;
+  text-shadow: 0 0 7px cyan;
+}
+
+calendar.view header button {
+  border-radius: 100px;
+}
+
+calendar.view grid label.today {
+  border: 2px solid rgb(0, 255, 199);
+  background-color: rgba(89, 0, 255, 0.3);
+  box-shadow: 0 0 20px rgb(0, 255, 255);
+  border-radius: 100px;
+}
+
+.popoverItem {
+  background-color: rgba(2, 5, 0, 0.9);
+}
+
+.barButton {
+  border-radius: 1000px;
+  border: 2px solid rgb(0, 188, 255);
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 0px 30px rgba(0, 255, 255, 0.5), -2px 0 30px rgba(0, 255, 255, 0.5);
+}
+
+.barButton:hover {
+  border: 2px solid cyan;
+  box-shadow: 2px 0px 30px cyan, -2px 0 30px cyan;
+}
+
+.bluetoothWindow {
+  border: 2px solid cyan;
+  border-radius: 20px;
+}
+
+.bluetoothLabel {
+  font-size: 24px;
+  font-weight: 800;
+  color: rgba(15, 255, 255, 0.8);
+}
+
+.bluetoothLabelContainer {
+  border-radius: 10px 10px 0 0;
+  background-color: rgba(10, 105, 155, 0.7);
+  border: 2px solid cyan;
+}
+
+.bluetoothSwitch {
+  border: 2px solid rgb(24, 187, 255);
+}
+
+.bluetoothPairedMenu {
+  border: 2px solid rgb(24, 255, 199);
+}
+.bluetoothNotPairedMenu {
+  border: 2px solid rgb(24, 133, 255);
+}
+
+.bluetoothDeviceLabel {
+  font-size: 16px;
+  font-weight: 700;
+  color: cyan;
+  text-shadow: 0 0 2em rgb(0, 255, 255);
+}
+
+.bluetoothDeviceContainer {
+  background-color: rgba(66, 255, 255, 0.2);
+}
+
+.bluetoothDeviceLabelContainer:hover {
+  background-color: rgba(66, 255, 255, 0.3);
+}
+
+.bluetoothDeviceLabelContainer:active {
+  background-color: rgba(66, 255, 255, 0.2);
+}
+
+.bluetoothUnpairIcon {
+  border-right: 1px solid cyan;
+  background-color: rgba(150, 22, 77, 0.3);
+}
+
+.bluetoothUnpairIcon:hover {
+  background-color: rgba(255, 22, 77, 0.5);
+}
+
+.bluetoothUnpairIcon:active {
+  background-color: rgba(150, 22, 77, 0.3);
+}
+
+.bluetoothDiscoveryLabel {
+  font-weight: 900;
+  font-size: 20px;
+  color: rgba(15, 255, 255, 0.8);
+}
+
+.bluetoothDiscoverableSwitch {
+  border: 2px solid cyan;
+}
+
+.bluetoothDiscoverableSwitch:checked {
+  box-shadow: 2px 0px 10px rgba(5, 255, 255, 0.9);
+}
+
+.workspace {
+  border: 2px solid cyan;
+  box-shadow: 0 0 10px cyan;
+  border-radius: 10000px;
+}
+
+.workspace:hover {
+  border: 2px solid red;
+  box-shadow: 0 0 10px red;
+}
+
+.workspace:active {
+  border: 2px solid orange;
+  box-shadow: 0 0 10px orange;
+}
+
+.workspaceLabel {
+  border-radius: 1000px;
+  font-weight: 1000;
+  text-shadow: 0px 0px 4px red;
+  color: red;
+}
+
+.media {
+  border-radius: 10px;
+}
+
+.mediaMenu {
+  border-radius: 10px;
+  border: 2px solid cyan;
+  box-shadow: inset 0 0 4px cyan;
+}
+
+.mediaBlock {
+  border-radius: 10px;
+  border: 2px solid orange;
+  box-shadow: 0 0 4px orange;
+}
+
+.mediaName, .mediaArtist {
+  font-weight: 800;
+  font-size: 14px;
+  color: rgb(255, 133, 3);
+  text-shadow: 0 0 2em red;
+}
+
+.mediaCtrl {
+  border: 3px solid red;
+  box-shadow: 0 0 10px red;
+}
+
+.mediaCtrl:hover {
+  border: 3px solid cyan;
+  box-shadow: 0 0 10px cyan;
+}
+
+.mediaCtrl:active {
+  box-shadow: 0 0 20px cyan;
+}
+
+scale trough {
+  border: 2px solid red;
+  box-shadow: 0 0 10px red, inset 0 0 5px red;
+  border-radius: 2000px;
+}
+
+scale trough highlight {
+  box-shadow: 0 0 10px cyan, inset 0 0 5px cyan;
+}
+
+scale slider {
+  min-height: 10px;
+  min-width: 10px;
+  border-radius: 500px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(77, 255, 199);
+  box-shadow: 0 0 20px cyan;
+}
+
+
+
+.audioMenu {
+  border-radius: 10px;
+  border: 2px solid cyan;
+  box-shadow: inset 0 0 5px cyan;
+}
+
+.audioButton {
+  box-shadow: 0 0 10px cyan;
+}
+
+.audioDeviceButton {
+  font-weight: 900;
+  border-bottom: 3px solid red;
+  color: orange;
+  text-shadow: 0 0 2em orange;
+}
+
+.audioDeviceButton:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.audioDeviceButton:active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.audioDevicesMenu {
+  border: 2px solid red;
+  box-shadow: 0 0 5px red;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+  border-radius: 10px;
+}

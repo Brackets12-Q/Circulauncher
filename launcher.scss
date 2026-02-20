@@ -1,0 +1,71 @@
+.ring {
+  border-radius: 20000px;
+  border: 2px solid cyan;
+}
+
+.appButton {
+  color: cyan;
+  text-shadow: 0 0 5px cyan;
+  border-radius: 100000px;
+}
+
+.appButton:hover {
+  color: rgb(0, 255, 188);
+  text-shadow: 0 0 5px rgb(0, 255, 185);
+}
+
+.appName {
+  font-weight: 900;
+}
+
+.central {
+  background-color: rgba(12, 77, 77, 0.1); 
+  border-radius: 10000px; 
+  border: 2px solid cyan;
+  box-shadow: inset 0 0 10px cyan;
+}
+
+.central:hover {
+  border: 2px solid cyan;
+  box-shadow: inset 0 0 15px cyan;
+}
+
+.centralOuter {
+  background-color: rgba(22, 44, 66, 0.6); 
+  border: 2px solid cyan;
+  box-shadow: inset 0 0 5px cyan;
+}
+
+.centralOuter:hover {
+  box-shadow: inset 0 0 10px cyan;
+}
+
+.cmdButton {
+  border: 2px solid cyan;
+  border-radius: 10000px;
+  box-shadow: 0 0 5px cyan;
+} 
+.cmdButton:hover {
+  box-shadow: 0 0 10px cyan;
+}
+.cmdButton:active {
+
+}
+
+.centralTime {
+  color: cyan;
+  font-weight: 1000;
+  font-size: 28px;
+  text-shadow: 0 0 10px cyan;
+}
+
+.searchBox {
+  color: rgba(0, 255, 255, 0.9);
+  border: 1px solid cyan;
+  border-radius: 500px;
+  font-size: 16px;
+  font-weight: 900;
+  text-shadow: 0 0 5px cyan;
+  box-shadow: 0 0 5px aqua;
+  caret-color: aqua;
+}
